@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Resources/Fonts/IBMPlexSans-Bold.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-BoldItalic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-ExtraLight.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-ExtraLightItalic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-Italic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-Light.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-LightItalic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-Medium.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-MediumItalic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-Regular.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-SemiBold.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-SemiBoldItalic.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-Thin.ttf</string>
+		<string>Resources/Fonts/IBMPlexSans-ThinItalic.ttf</string>
+	</array>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

@@ -1,0 +1,13 @@
+/* 
+  Localization.strings
+  TechnicalChallenge
+
+  Created by waseemhassan on 23/04/2022.
+  
+*/
+"OrderListingViewController.TitleLabel.Text" = "Transactions";
+"OrderListingViewController.SubTitleLabel.Text" = "Click “Download” to view transaction history";
+"OrderListingViewController.DownloadButton.Title" = "Download";
+"OrderListingViewController.OrderCell.CurrencyDepost.Text" = "In %@";
+"OrderListingViewController.OrderCell.CurrencyWithdrawl.Text" = "Out %@";
+"OrderListingViewController.OrderCell.CurrencyBuySell.Text" = "%@ → %@";
