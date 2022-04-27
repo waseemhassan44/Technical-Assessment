@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		13147DD0281463A700440D23 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13147DCF281463A700440D23 /* AppDelegate.swift */; };
-		13147DDA281463A700440D23 /* TechnicalChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 13147DD8281463A700440D23 /* TechnicalChallenge.xcdatamodeld */; };
 		13147DDC281463AA00440D23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13147DDB281463AA00440D23 /* Assets.xcassets */; };
 		13147DDF281463AA00440D23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13147DDD281463AA00440D23 /* LaunchScreen.storyboard */; };
 		13147DEA281463AA00440D23 /* TechnicalChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13147DE9281463AA00440D23 /* TechnicalChallengeTests.swift */; };
@@ -36,11 +35,22 @@
 		13147E3C2814A5A100440D23 /* OrderListingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13147E3A2814A5A100440D23 /* OrderListingTableViewCell.swift */; };
 		13147E3D2814A5A100440D23 /* OrderListingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13147E3B2814A5A100440D23 /* OrderListingTableViewCell.xib */; };
 		13147E3F2814A5DC00440D23 /* OrderListingTableViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13147E3E2814A5DC00440D23 /* OrderListingTableViewCellViewModel.swift */; };
-		1355BDFF2814B4C600E8E184 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1355BDFE2814B4C600E8E184 /* Alamofire */; };
 		1355BE012814B78A00E8E184 /* PersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE002814B78A00E8E184 /* PersistenceStore.swift */; };
 		1355BE062814B90F00E8E184 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1355BE082814B90F00E8E184 /* Localizable.strings */; };
 		1355BE0B2814BD1500E8E184 /* LocalizationWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE0A2814BD1500E8E184 /* LocalizationWrapper.swift */; };
 		1355BE0D2814C3E000E8E184 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE0C2814C3E000E8E184 /* String+Extension.swift */; };
+		1355BE0F2814D1C000E8E184 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE0E2814D1C000E8E184 /* Order.swift */; };
+		1355BE112814D39E00E8E184 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE102814D39E00E8E184 /* Orders.swift */; };
+		1355BE132814D59100E8E184 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE122814D59100E8E184 /* Network.swift */; };
+		1355BE152814D6D600E8E184 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE142814D6D600E8E184 /* HTTPMethod.swift */; };
+		1355BE172814D6F100E8E184 /* DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE162814D6F100E8E184 /* DataRequest.swift */; };
+		1355BE1A2814DB7B00E8E184 /* OrdersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE192814DB7B00E8E184 /* OrdersRequest.swift */; };
+		1355BE1F2814E49D00E8E184 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE1E2814E49D00E8E184 /* LoadingViewController.swift */; };
+		1355BE5B28171FB300E8E184 /* TechnicalChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1355BE5928171FB300E8E184 /* TechnicalChallenge.xcdatamodeld */; };
+		13BDFA2A28186C5A00BDCA10 /* OrderManagedObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDFA2828186C5A00BDCA10 /* OrderManagedObject+CoreDataClass.swift */; };
+		13BDFA2B28186C5A00BDCA10 /* OrderManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDFA2928186C5A00BDCA10 /* OrderManagedObject+CoreDataProperties.swift */; };
+		13BDFA2D28186D4F00BDCA10 /* OrderPersistenceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDFA2C28186D4F00BDCA10 /* OrderPersistenceStore.swift */; };
+		13BDFA2F2818A32A00BDCA10 /* NSDecimalNumber+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13BDFA2E2818A32A00BDCA10 /* NSDecimalNumber+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +73,6 @@
 /* Begin PBXFileReference section */
 		13147DCC281463A700440D23 /* TechnicalChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TechnicalChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13147DCF281463A700440D23 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		13147DD9281463A700440D23 /* TechnicalChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnicalChallenge.xcdatamodel; sourceTree = "<group>"; };
 		13147DDB281463AA00440D23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13147DDE281463AA00440D23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13147DE0281463AA00440D23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -98,6 +107,18 @@
 		1355BE072814B90F00E8E184 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1355BE0A2814BD1500E8E184 /* LocalizationWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationWrapper.swift; sourceTree = "<group>"; };
 		1355BE0C2814C3E000E8E184 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		1355BE0E2814D1C000E8E184 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1355BE102814D39E00E8E184 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		1355BE122814D59100E8E184 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		1355BE142814D6D600E8E184 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		1355BE162814D6F100E8E184 /* DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRequest.swift; sourceTree = "<group>"; };
+		1355BE192814DB7B00E8E184 /* OrdersRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersRequest.swift; sourceTree = "<group>"; };
+		1355BE1E2814E49D00E8E184 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		1355BE5A28171FB300E8E184 /* TechnicalChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TechnicalChallenge.xcdatamodel; sourceTree = "<group>"; };
+		13BDFA2828186C5A00BDCA10 /* OrderManagedObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderManagedObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		13BDFA2928186C5A00BDCA10 /* OrderManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OrderManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13BDFA2C28186D4F00BDCA10 /* OrderPersistenceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderPersistenceStore.swift; sourceTree = "<group>"; };
+		13BDFA2E2818A32A00BDCA10 /* NSDecimalNumber+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDecimalNumber+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1355BDFF2814B4C600E8E184 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +169,7 @@
 		13147DCE281463A700440D23 /* TechnicalChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				1355BE1C2814E47E00E8E184 /* Common */,
 				1355BE092814BCC600E8E184 /* Helper */,
 				13147E0F281468A000440D23 /* Resources */,
 				13147E0E281465BD00440D23 /* Models */,
@@ -160,8 +181,8 @@
 				13147DDB281463AA00440D23 /* Assets.xcassets */,
 				13147DDD281463AA00440D23 /* LaunchScreen.storyboard */,
 				13147DE0281463AA00440D23 /* Info.plist */,
-				13147DD8281463A700440D23 /* TechnicalChallenge.xcdatamodeld */,
 				1355BE082814B90F00E8E184 /* Localizable.strings */,
+				1355BE5928171FB300E8E184 /* TechnicalChallenge.xcdatamodeld */,
 			);
 			path = TechnicalChallenge;
 			sourceTree = "<group>";
@@ -204,6 +225,7 @@
 		13147E04281464A400440D23 /* DataPersistence */ = {
 			isa = PBXGroup;
 			children = (
+				13BDFA2C28186D4F00BDCA10 /* OrderPersistenceStore.swift */,
 				1355BE002814B78A00E8E184 /* PersistenceStore.swift */,
 			);
 			path = DataPersistence;
@@ -212,6 +234,10 @@
 		13147E05281464F500440D23 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				1355BE182814DB6A00E8E184 /* Requests */,
+				1355BE122814D59100E8E184 /* Network.swift */,
+				1355BE142814D6D600E8E184 /* HTTPMethod.swift */,
+				1355BE162814D6F100E8E184 /* DataRequest.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -219,6 +245,10 @@
 		13147E0E281465BD00440D23 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				13BDFA2828186C5A00BDCA10 /* OrderManagedObject+CoreDataClass.swift */,
+				13BDFA2928186C5A00BDCA10 /* OrderManagedObject+CoreDataProperties.swift */,
+				1355BE0E2814D1C000E8E184 /* Order.swift */,
+				1355BE102814D39E00E8E184 /* Orders.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -269,8 +299,33 @@
 			children = (
 				1355BE0A2814BD1500E8E184 /* LocalizationWrapper.swift */,
 				1355BE0C2814C3E000E8E184 /* String+Extension.swift */,
+				13BDFA2E2818A32A00BDCA10 /* NSDecimalNumber+Extension.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		1355BE182814DB6A00E8E184 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				1355BE192814DB7B00E8E184 /* OrdersRequest.swift */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		1355BE1C2814E47E00E8E184 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				1355BE1D2814E48A00E8E184 /* LoadingView */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		1355BE1D2814E48A00E8E184 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				1355BE1E2814E49D00E8E184 /* LoadingViewController.swift */,
+			);
+			path = LoadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +345,6 @@
 			);
 			name = TechnicalChallenge;
 			packageProductDependencies = (
-				1355BDFE2814B4C600E8E184 /* Alamofire */,
 			);
 			productName = TechnicalChallenge;
 			productReference = 13147DCC281463A700440D23 /* TechnicalChallenge.app */;
@@ -365,7 +419,6 @@
 			);
 			mainGroup = 13147DC3281463A700440D23;
 			packageReferences = (
-				1355BDFD2814B4C600E8E184 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = 13147DCD281463A700440D23 /* Products */;
 			projectDirPath = "";
@@ -427,14 +480,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1355BE132814D59100E8E184 /* Network.swift in Sources */,
 				13147E3C2814A5A100440D23 /* OrderListingTableViewCell.swift in Sources */,
-				13147DDA281463A700440D23 /* TechnicalChallenge.xcdatamodeld in Sources */,
+				1355BE1F2814E49D00E8E184 /* LoadingViewController.swift in Sources */,
+				1355BE152814D6D600E8E184 /* HTTPMethod.swift in Sources */,
 				13147DD0281463A700440D23 /* AppDelegate.swift in Sources */,
+				1355BE5B28171FB300E8E184 /* TechnicalChallenge.xcdatamodeld in Sources */,
 				1355BE012814B78A00E8E184 /* PersistenceStore.swift in Sources */,
+				1355BE1A2814DB7B00E8E184 /* OrdersRequest.swift in Sources */,
+				1355BE172814D6F100E8E184 /* DataRequest.swift in Sources */,
+				1355BE0F2814D1C000E8E184 /* Order.swift in Sources */,
 				13147E3F2814A5DC00440D23 /* OrderListingTableViewCellViewModel.swift in Sources */,
+				1355BE112814D39E00E8E184 /* Orders.swift in Sources */,
+				13BDFA2F2818A32A00BDCA10 /* NSDecimalNumber+Extension.swift in Sources */,
 				1355BE0D2814C3E000E8E184 /* String+Extension.swift in Sources */,
+				13BDFA2B28186C5A00BDCA10 /* OrderManagedObject+CoreDataProperties.swift in Sources */,
+				13BDFA2D28186D4F00BDCA10 /* OrderPersistenceStore.swift in Sources */,
 				13147E0B2814657B00440D23 /* OrderListingViewModel.swift in Sources */,
 				13147E082814653400440D23 /* OrderListingViewController.swift in Sources */,
+				13BDFA2A28186C5A00BDCA10 /* OrderManagedObject+CoreDataClass.swift in Sources */,
 				13147E0D2814659E00440D23 /* OrderDataProvider.swift in Sources */,
 				1355BE0B2814BD1500E8E184 /* LocalizationWrapper.swift in Sources */,
 			);
@@ -543,7 +607,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -598,7 +662,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -775,32 +839,13 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCRemoteSwiftPackageReference section */
-		1355BDFD2814B4C600E8E184 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		1355BDFE2814B4C600E8E184 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 1355BDFD2814B4C600E8E184 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-/* End XCSwiftPackageProductDependency section */
-
 /* Begin XCVersionGroup section */
-		13147DD8281463A700440D23 /* TechnicalChallenge.xcdatamodeld */ = {
+		1355BE5928171FB300E8E184 /* TechnicalChallenge.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				13147DD9281463A700440D23 /* TechnicalChallenge.xcdatamodel */,
+				1355BE5A28171FB300E8E184 /* TechnicalChallenge.xcdatamodel */,
 			);
-			currentVersion = 13147DD9281463A700440D23 /* TechnicalChallenge.xcdatamodel */;
+			currentVersion = 1355BE5A28171FB300E8E184 /* TechnicalChallenge.xcdatamodel */;
 			path = TechnicalChallenge.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

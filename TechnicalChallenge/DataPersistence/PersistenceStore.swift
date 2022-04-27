@@ -8,11 +8,13 @@
 import Foundation
 import CoreData
 
-protocol PersistenceStoreProtocol {
-    
+protocol PersistenceStoreProtcol {
+    var persistentContainer: NSPersistentContainer { get }
 }
 
-struct PersistenceStore: PersistenceStoreProtocol {
+final class PersistenceStore: PersistenceStoreProtcol {
+    static let shared = PersistenceStore()
+    private init() {}
     
     lazy var persistentContainer: NSPersistentContainer = {
         
