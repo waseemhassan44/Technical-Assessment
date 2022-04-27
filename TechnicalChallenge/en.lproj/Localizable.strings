@@ -11,3 +11,9 @@
 "OrderListingViewController.OrderCell.CurrencyDepost.Text" = "In %@";
 "OrderListingViewController.OrderCell.CurrencyWithdrawl.Text" = "Out %@";
 "OrderListingViewController.OrderCell.CurrencyBuySell.Text" = "%@ → %@";
+
+"ErrorAlert.GeneralError.Title" = "Error!";
+"ErrorAlert.GeneralError.Message" = "Something went wrong, please try again later";
+"ErrorAlert.GeneralError.Button.Text" = "OK";
+"ErrorAlert.DataNotFound.Title" = "Message";
+"ErrorAlert.DataNotFound.Message" = "Data is not available at the moment, please try again later.";
