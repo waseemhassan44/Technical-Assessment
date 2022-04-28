@@ -6,4 +6,5 @@ This project is technical assessment for copper. It is created using MVVM archit
 2. Proper error handling, can be done in separate component
 3. Brand naming conventions can be used across project
 4. Accessiblity can be added for disability 
-5. Crashlytics for tracking of any crash
+5. Unit/UI Tests, snapshot testing
+6. Crashlytics for tracking of any crash
